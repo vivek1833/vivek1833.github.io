@@ -21,6 +21,11 @@ const achievements = [
     icon: Target,
     title: "TechGig Code Gladiators",
     description: "Finalist in TechGig Code Gladiators Hackathon 2022, selected from thousands nationwide"
+  },
+  {
+    icon: Award,
+    title: "JEE-Mains 2020: 91 Percentile",
+    description: "Top 10% of 1 million+ test-takers nationally in one of India's most competitive entrance exams"
   }
 ];
 
@@ -48,15 +53,6 @@ const Achievements = () => {
             );
           })}
         </div>
-        
-        <Card className="mt-8 p-6 bg-primary/5 border-primary/20">
-          <div className="flex items-center gap-3">
-            <Award className="w-6 h-6 text-primary" />
-            <p className="text-sm font-medium">
-              JEE-Mains 2020: <span className="text-primary">91 Percentile</span> - Top 10% of 1 million+ test-takers nationally
-            </p>
-          </div>
-        </Card>
       </div>
     </section>
   );
