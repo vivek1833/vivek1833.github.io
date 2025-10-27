@@ -18,10 +18,6 @@ const Index = () => {
       <Skills />
       <Achievements />
       <Contact />
-      
-      <footer className="py-8 text-center text-sm text-muted-foreground border-t">
-        <p>© 2024 Vivek Yadav. Built with React & Tailwind CSS.</p>
-      </footer>
     </div>
   );
 };
