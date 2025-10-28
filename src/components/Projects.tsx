@@ -54,6 +54,45 @@ const projects = [
     ],
     githubUrl: "https://github.com/vivek1833/chatbook",
   },
+  {
+    title: "Task Reminder - Chrome Extension",
+    description:
+      "A Chrome extension to manage daily tasks with automatic resets and hourly reminders for incomplete tasks.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    highlights: [
+      "Add, complete, and delete daily tasks",
+      "Tasks automatically reset at midnight",
+      "Sends notifications every hour if a task is not completed",
+    ],
+    githubUrl: "https://github.com/vivek1833/Daily-Reminder",
+    image: "static/Images/dailyReminder.png",
+  },
+  {
+    title: "LMS - Learning Management System WebApp",
+    description:
+      "A web-based platform built for managing courses, subjects, and student registrations with secure JWT authentication.",
+    techStack: ["Node.js", "Handlebars", "Mongoose", "JWT"],
+    highlights: [
+      "Student login and registration",
+      "Subjects displayed based on selected course",
+      "CRUD operations on courses and subjects",
+    ],
+    githubUrl: "https://github.com/vivek1833/LMS",
+    image: "static/Images/lms.png",
+  },
+  {
+    title: "Crispy King - Online Food Ordering WebApp",
+    description:
+      "A web application for browsing menus, managing carts, and placing food orders with cookie-based authentication and full CRUD support.",
+    techStack: ["Node.js", "Handlebars", "Mongoose", "Cookie-Parser"],
+    highlights: [
+      "Add and remove items from cart",
+      "User authentication using cookies",
+      "CRUD operations on food items",
+    ],
+    githubUrl: "https://github.com/vivek1833/Crispy-King",
+    image: "static/Images/crispyKing.png",
+  },
 ];
 
 const Projects = () => {

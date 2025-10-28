@@ -37,16 +37,16 @@ const Hero = () => {
             className="gap-2 font-medium"
             asChild
           >
-            <a href="#contact">
+            <a href="./public/Vivek_Yadav_Resume.pdf" target="_blank">
               <Mail className="w-5 h-5" />
-              Get in Touch
+              Resume
             </a>
           </Button>
         </div>
         
         <div className="flex gap-6 justify-center">
           <a 
-            href="https://github.com/vivekyadav138001" 
+            href="https://github.com/vivek1833" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -55,7 +55,7 @@ const Hero = () => {
             <Github className="w-6 h-6" />
           </a>
           <a 
-            href="https://linkedin.com/in/vivek-yadav-138001" 
+            href="https://linkedin.com/in/vivekyadav9506115091" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -64,7 +64,7 @@ const Hero = () => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a 
-            href="https://leetcode.com/vivekyadav138001" 
+            href="https://leetcode.com/vivek1833" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
