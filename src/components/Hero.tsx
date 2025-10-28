@@ -37,7 +37,7 @@ const Hero = () => {
             className="gap-2 font-medium"
             asChild
           >
-            <a href="https://vivek1833.github.io/public/Vivek_Yadav_Resume.pdf" target="_blank">
+            <a href="/public/Vivek_Yadav_Resume.pdf" target="_blank">
               <Mail className="w-5 h-5" />
               Resume
             </a>

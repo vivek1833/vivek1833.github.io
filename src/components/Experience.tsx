@@ -22,7 +22,7 @@ const Experience = () => {
                   </p>
                 </div>
                 <span className="text-sm text-muted-foreground">
-                  March 2024 - Present
+                  March 2024 - July 2025
                 </span>
               </div>
 
