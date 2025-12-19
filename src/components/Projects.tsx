@@ -5,6 +5,25 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "MerchantAI - Merchant Analytics Platform",
+    description:
+      "Backend-first merchant platform that enables product catalog management, order processing, payment workflows, and actionable business analytics with AI-assisted insights.",
+    techStack: [
+      "Spring Boot",
+      "Java 17",
+      "PostgreSQL",
+      "Stripe",
+      "Redis",
+      "Google Gemini AI",
+    ],
+    highlights: [
+      "Built merchant product catalog and order lifecycle with Stripe-based payment workflows",
+      "Implemented deterministic sales and inventory analytics using SQL aggregation",
+      "Integrated AI-driven business insights using Gemini with strict prompt guardrails and fallback handling",
+    ],
+    githubUrl: "https://github.com/vivek1833/MerchantAI",
+  },
+  {
     title: "PulsePoint - Hospital Management System",
     description:
       "Full-stack hospital management system with Spring Boot and React.js, managing 1000+ patient records efficiently with RESTful API architecture.",
