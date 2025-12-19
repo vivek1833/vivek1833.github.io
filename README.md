@@ -10,6 +10,10 @@ npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+
+# To deploy
+npm run build
+npm run deploy
 ```
 
 ## What technologies are used for this project?
