@@ -1,9 +1,9 @@
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/vivek1833/vivek1833.github.io
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd vivek1833.github.io
 
 # Step 3: Install the necessary dependencies.
 npm i
